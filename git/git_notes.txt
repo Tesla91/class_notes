@@ -1,0 +1,2 @@
+git help <verb>/ Git <virb> --help	-> to search how to use a term
+

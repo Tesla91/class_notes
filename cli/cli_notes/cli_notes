@@ -1,0 +1,40 @@
+mkdir	-> make a new directory
+	mkdir testdir
+cd	-> change directory
+	cd ~/testdir
+pwd	-> print working directory
+	
+whoami	-> determine which user you currently are
+mv	-> move (or rename) a directory
+cp 	-> copy a file
+ls	-> list contents of a directory
+rm	-> remove item(s)
+chmod	-> change file or directory permissions
+touch	->create file but (dont open it)
+cat	-> print contents of a file
+head	-> print first few lines of a file
+tale	-> print last few lines of a file
+su/sudo	-> become super user
+man <command>	-> open manual for command
+vim	-> open or create and edit new file
+~	-> home cirectory
+-	-> previous directory
+/	-> root directory
+tab	-> autocomplete
+tab tab	-> show contents of the next directory
+|	-> pipe - feeds output of first command to input of next command
+grep	-> searct text functionality
+open	-> open <file/dir name> in text editor or file explorer
+chown	-> change the owner of a file
+exit	-> leave current user 
+> 	-> redirect output to a new file 
+	ls -al > contents.txt
+>> 	-> redirect output to a file (append if necessary) 
+	ls -al >> contents.txt
+./ 	-> execute a script
+
+export PATH=$PATH:<directory> 	->if you eat to be able to call a script or any other executable from anywhere on your machine you must add it to the PATH. Be careful to append it to the path and not overwrite the path. You append by using “PATH=$PATH:<directory>”
+
+alias - to be able to re=un a command from anywhere on your machine, such as “cd /to/some/directory/“ you cancreate an alias as a short cut by editing your ~/.bash_profile and adding for instance: 
+“alias notes='cd /to/some/directory/’ after editing .bash_profile you
+must “source .bash_profile”  

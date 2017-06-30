@@ -1,0 +1,5 @@
+total 0
+drwxr-xr-x  4 nicola  staff  136 Jun 30 10:36 .
+drwxr-xr-x  4 nicola  staff  136 Jun 30 10:36 ..
+-rw-r--r--  1 nicola  staff    0 Jun 30 10:36 contents.txt
+drwxr-xr-x  2 nicola  staff   68 Jun 30 10:36 testdir.txt
